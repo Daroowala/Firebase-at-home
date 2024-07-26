@@ -7,39 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div id="signup" class="form-container">
-            <h2>Signup</h2>
-            <form id="signupForm">
-                <label for="signupUsername">Username:</label>
-                <input type="text" id="signupUsername" name="username" required>
-                
-                <label for="signupPassword">Password:</label>
-                <input type="password" id="signupPassword" name="password" required>
-                
-                <button type="submit">Signup</button>
-            </form>
-    </div>
-
-    <div id="login" class="form-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <label for="loginUsername">Username:</label>
-            <input type="text" id="loginUsername" name="username" required>
-            
-            <label for="loginPassword">Password:</label>
-            <input type="password" id="loginPassword" name="password" required>
-            
-            <button type="submit">Login</button>
-        </form>
-    </div>
-
-    <div id="logout" class="form-container" style="display:none;">
-        <h2>Welcome, <span id="welcomeUser"></span>!</h2>
-        <button id="logoutButton">Logout</button>
-    </div>
-</div>
+    <body>
+        <div id="auth_container">
+            <h1>Sign up</h1>
+            <input id="signup_email" type="email">
+            <input id="signup_password" type="password">
+            <button id="btn">sign up</button>        
+            <h1>Sign in</h1>
+            <input id="signin_email" type="email">
+            <input id="signin_password" type="password">
+            <button id="signin_btn">sign in</button>        
+    
+        </div>
+        <div id="dashboard" style="display: none;">
+            <p id="user_info"></p>
+            <button id="logout">Logout</button>
+        </div>
 
 </body>
-<script src="app.js"></script>
+<script src="app.js" type="module"></script>
 </html>
