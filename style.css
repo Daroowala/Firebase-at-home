@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +13,12 @@ body {
 }
 
 .form-container {
-    background-color: #fff;
+    background-color: lightblue;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    box-shadow: 8px 16px 10px rgba(0, 0, 0, 0.1);
     margin: 10px 0;
+    width: 265px;
 }
 
 h2 {
@@ -35,7 +36,7 @@ label {
 }
 
 input {
-    width: 93%;
+    width: 80%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -43,10 +44,10 @@ input {
 }
 
 button {
-    width: 100%;
+    width: 32%;
     padding: 10px;
     background-color: #4CAF50;
-    color: white;
+    color: black;
     border: none;
     border-radius: 4px;
     cursor: pointer;
